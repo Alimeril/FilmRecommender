@@ -1,0 +1,3 @@
+"FilmRecommender" is a "html parser" project, where takes the name of your favorite film, and recommend films based on that, using "requests" and "BeautifulSoup" python libraries.
+
+First, "FilmRecommender" parse the google search page of the film for the "imdb" link of the film. Then, it will parse the imdb page of the film for similar films to recommend. If the user wanted to see more similar films, it will choose a film randomly from it's recommendations, and parse its imdb page for more similar films and goes on.
